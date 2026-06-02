@@ -8,22 +8,16 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error,mean_squared_error,r2_score
 
-
 # load the data
 data = pd.read_csv("C:\\Users\\Admin\\Documents\\admission_prediction_200_records.csv")
-# print(data.head())
+print(data.head())
 
 # data preprocessing
-# print(data.shape)
-
-# print(data.info())
-
-# print(data.describe())
-
-
-# print(data.isnull().sum())
-
-# data.duplicated().sum()
+print(data.shape)
+print(data.info())
+print(data.describe())
+print(data.isnull().sum())
+data.duplicated().sum()
 
 # x and y
 
